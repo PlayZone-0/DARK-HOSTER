@@ -52,8 +52,8 @@ YOUR_USERNAME = os.getenv('OWNER_USERNAME', '@DARKxERA')
 UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', '@DARKxHITS')
 
 # Limits from .env or defaults
-FREE_USER_LIMIT = int(os.getenv('FREE_USER_LIMIT', 3))
-SUBSCRIBED_USER_LIMIT = int(os.getenv('SUBSCRIBED_USER_LIMIT', 15))
+FREE_USER_LIMIT = int(os.getenv('FREE_USER_LIMIT', 1))
+SUBSCRIBED_USER_LIMIT = int(os.getenv('SUBSCRIBED_USER_LIMIT', 50))
 ADMIN_LIMIT = int(os.getenv('ADMIN_LIMIT', 999))
 OWNER_LIMIT = float('inf')
 
