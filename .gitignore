@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+*.log
+inf/
+upload_bots/
+.idea/
+.vscode/
